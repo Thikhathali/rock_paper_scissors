@@ -1,5 +1,5 @@
-### Odin Project - Rock Paper Scissors
-## A foundation course assignment
+# Odin Project - Rock Paper Scissors
+### A foundation course assignment
 SKILLS DEMONSTRASTRED UPON COMPLETION 😎:
 <ul>
    <li>Javascript Fundamentals</li>
