@@ -42,9 +42,9 @@ function game(){
     if(player_score > cpu_score) {
         console.log(`You won! by ${player_score} rounds`);
     } else if(player_score < cpu_score){
-        rock
+        console.log(`You lost! by ${cpu_score} rounds`);
     } else {
-        console.log("The Game is Draw!")
+        console.log("The Game is Draw!");
     }
 }
 
