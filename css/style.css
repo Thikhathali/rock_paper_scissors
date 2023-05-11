@@ -46,6 +46,7 @@ button:hover {
 .cpu-score, 
 .player-score {    
     letter-spacing: -10px;
+    text-align: center;
 }
 
 .outcome {
@@ -53,6 +54,15 @@ button:hover {
     align-self: center;
     /* flex-grow: 1; */
     margin-right: -100px;
+    transition: all 5s ease-in-out;
+}
+
+.win, .loose {    
+    visibility: hidden;
+}
+
+.visibile {
+    visibility: visible;
 }
 
 .cpu-selection {
