@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    /* background-color: aliceblue; */
+    background-color: #f1f1f1;
 }
 
 button {
@@ -29,7 +29,7 @@ button:hover {
     background-color: aliceblue;
     width: 60%;
     height: 80vh;
-    margin: 5% auto;
+    margin: 2% auto;
     box-shadow: 1em 0 .5em 8px rgba(0, 0, 0, 0.1);
     border: .5px solid #a1a1a1;
     border-radius: 10px;
@@ -66,11 +66,21 @@ button:hover {
 }
 
 .cpu-selection {
-    font-size: 10em;
+    font-size: 12em;
     text-align: center;
     grid-column: span 4;
     grid-row: 2;
     align-self: center;
+}
+
+button.new-game {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: orange;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
 }
 
 .player-selection {
@@ -79,4 +89,12 @@ button:hover {
     align-items: flex-start;
     grid-column: span 4;
     grid-row: 3;
+}
+
+footer{
+    position: fixed;
+    font-size: 1.1em;
+    width: 100vw;
+    text-align: center;
+    bottom: 20px;
 }
