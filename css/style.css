@@ -29,7 +29,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr 1fr;
-    background-image: url("/images/board-image.jpg");
+    background-image: url("../images/board-image.jpg");
     width: 60%;
     height: 80vh;
     margin: 2% auto;
